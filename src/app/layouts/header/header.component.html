@@ -1,0 +1,12 @@
+<header class=" navbar navbar-expand-lg fixed-top  row shadow-effect " *ngIf="isLoggedIn$ | async">
+    <div class="col-sm-3 ms-3 float-start">
+        <i class="fas fa-envelope subscribe-icon"></i>
+    </div>
+    <div class="container col-sm-4  justify-content-center">
+        <a href="#" class="site-logo">Deepak</a>
+    </div>
+    <div class=" float-end col-sm-3 p-4 " >
+        <a href="" class="text-theme">{{userEmail}}</a>
+        <button class="btn btn-info btn-theme text-theme ms-2" (click)="onLogOut()">LogOut</button>
+    </div>
+</header>

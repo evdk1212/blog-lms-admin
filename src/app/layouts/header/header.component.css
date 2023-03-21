@@ -1,0 +1,33 @@
+header{
+    height: 60px;
+    background-color: var(--header-color);
+}
+
+.site-logo{
+    font-size: 1.5em;
+    color: var(--text-color);
+}
+
+.site-logo:hover {
+    text-decoration: underline;
+}
+
+
+.search-icon-color{
+    color: var(--text-color);
+}
+.subscribe-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.header-text-box{
+    height: 30px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: var(--header-color);
+    color: var(--text-color);
+}

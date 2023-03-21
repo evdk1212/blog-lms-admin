@@ -1,1 +1,102 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import '~ngx-toastr/toastr';
+@import '~font-awesome/css/font-awesome.min.css';
+
+:root{
+    --primary-color: #00000080;
+    --secondary-color:#000000;
+    --body-text-color: #596392;
+    --navbar-footer-color: rgba(102, 51, 153, 0.226);
+    --text-color:#f7f9f9;
+    --header-color:#010101df;
+    --card-color: #00000097;
+
+}
+body{
+    background-image: url('https://images.pexels.com/photos/4512439/pexels-photo-4512439.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: var(--body-text-color);
+    backdrop-filter: blur(5px);
+}
+.nav-link{
+    color: var(--primary-color);
+}
+.site-logo{
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: var(--navbar-footer-color);
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.shadow-effect{
+    border: none;
+    box-shadow: 0px 0px 33px -10px rgba(71, 114, 254, 0.3);
+}
+.bg-theme{
+    background-color: var(--primary-color);
+}
+.bg-secondary-theme{
+    background-color: var(--secondary-color);
+}
+.text-theme-primary{
+    color: var(--text-color);
+}
+
+input[type=text], input[type=email],input[type=password]{
+    height: 40px;
+    padding-left: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.btn-theme{
+    border: none;
+    height: 40px;
+    background-color: var(--navbar-footer-color);
+    color: white;
+}
+.btn-theme2{
+    border: none;
+    height: 40px;
+    width: 100%;
+    background-color: var(--navbar-footer-color);
+    color: white;
+}
+
+.nav-item{
+    color: var(--text-color);
+}
+.nav-link{
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.card-custom{
+    background-color: var(--card-color);
+    color: var(--text-color);
+    height: 200px;
+    cursor: pointer;
+}
+.card-custom-table{
+    background-color: var(--card-color);
+    color: var(--text-color);
+    cursor: pointer;
+}
+.custom-icon{
+    color: rebeccapurple;
+}
+
+.post-text-box{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: var(--header-color);
+    color: var(--text-color);
+}
